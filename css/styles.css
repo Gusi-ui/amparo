@@ -1,0 +1,725 @@
+/* Estilos personalizados para la Landing Page de Amparo Medium */
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background-color: #faf9f6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, .brand-title {
+  font-family: 'Luckiest Guy', cursive;
+  color: #8d3bbf;
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  color: #8d3bbf;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+}
+
+nav.w3-bar {
+  background: #8d3bbf !important;
+}
+
+nav .w3-bar-item {
+  font-weight: 700;
+  color: #fff !important;
+}
+
+nav .w3-bar-item:hover {
+  background: #b57ee6 !important;
+  color: #fff !important;
+}
+
+.header-banner {
+  background: none;
+  color: #fff;
+  padding: 2.5em 0 1.5em 0;
+  text-align: center;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.header-title-block {
+  display: block;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  background: linear-gradient(90deg, #8d3bbf 0%, #b57ee6 100%);
+  border-radius: 0 0 24px 24px;
+  padding: 2.2em 0 2.2em 0;
+  box-shadow: 0 4px 24px rgba(60,0,90,0.13);
+  margin-bottom: 0.5em;
+}
+
+.header-title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2.7em;
+  color: #fff;
+  letter-spacing: 0.03em;
+  margin: 0;
+  text-shadow: 2px 2px 8px #8d3bbf, 0 2px 8px #000;
+}
+
+.header-subtitle {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 6px #8d3bbf, 0 2px 8px #000;
+}
+
+.featured-section {
+  background: #f3eaff;
+  border: 2px solid #b57ee6;
+  border-radius: 16px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1.5em 2em;
+  box-shadow: 0 2px 16px rgba(141,59,191,0.07);
+  text-align: center;
+  font-size: 1.25em;
+  color: #4a148c;
+  font-weight: 600;
+  max-width: none;
+}
+
+.cta-btn {
+  background: linear-gradient(90deg, #b57ee6 0%, #8d3bbf 100%);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8em 2em;
+  font-size: 1.2em;
+  margin-top: 1em;
+  box-shadow: 0 2px 8px rgba(141,59,191,0.15);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.cta-btn:hover {
+  background: linear-gradient(90deg, #8d3bbf 0%, #b57ee6 100%);
+  transform: scale(1.05);
+}
+
+.section {
+  margin: 2em auto;
+  max-width: 900px;
+  padding: 2em 1em;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(141,59,191,0.07);
+}
+
+.section img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+footer {
+  background: #8d3bbf;
+  color: #fff;
+  padding: 1.5em 0 0.5em 0;
+  text-align: center;
+  margin-top: 2em;
+}
+
+footer a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+footer a:hover {
+  opacity: 0.7;
+}
+
+.top-bar {
+  background: #b57ee6;
+  color: #fff;
+  padding: 0.5em 0;
+  text-align: center;
+  font-size: 1.1em;
+  letter-spacing: 0.03em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.top-bar .top-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.top-bar i {
+  margin: 0 0.5em 0 0;
+}
+
+.courses-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.course-card.featured {
+  flex: 1 1 100%;
+  max-width: 900px;
+  min-width: 260px;
+  background: #f3eaff;
+  border: 3px solid #8d3bbf;
+  box-shadow: 0 8px 32px 0 rgba(141,59,191,0.13), 0 2px 16px rgba(141,59,191,0.10);
+  padding: 2.5em 2em 2em 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  border-radius: 18px;
+  position: relative;
+}
+
+.course-card.featured .course-title {
+  font-size: 1.5em;
+  color: #8d3bbf;
+}
+
+.course-card.featured .course-desc {
+  font-size: 1.1em;
+  color: #4a148c;
+}
+
+.course-card:not(.featured) {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(141,59,191,0.10);
+  padding: 2em 1.2em 1.5em 1.2em;
+  max-width: 270px;
+  min-width: 220px;
+  flex: 1 1 220px;
+  text-align: center;
+  transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #b57ee6;
+}
+
+.course-card:not(.featured):hover {
+  transform: scale(1.06) translateY(-8px) rotate(-1deg);
+  box-shadow: 0 8px 32px 0 rgba(141,59,191,0.18), 0 2px 16px rgba(141,59,191,0.10);
+  border-color: #8d3bbf;
+  z-index: 2;
+}
+
+.course-card.featured svg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1.2em;
+}
+
+.course-title {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+  color: #8d3bbf;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.course-desc {
+  color: #444;
+  font-size: 1em;
+  margin-bottom: 1.2em;
+}
+
+.course-btn {
+  background: linear-gradient(90deg, #b57ee6 0%, #8d3bbf 100%);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.5em;
+  font-size: 1em;
+  box-shadow: 0 2px 8px rgba(141,59,191,0.10);
+  transition: background 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+.course-btn:hover {
+  background: linear-gradient(90deg, #8d3bbf 0%, #b57ee6 100%);
+  transform: scale(1.07);
+}
+
+.main-banner {
+  position: relative;
+  width: 100vw;
+  min-height: 320px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  background: radial-gradient(ellipse at 60% 40%, #f3eaff 0%, #b57ee6 100%);
+}
+
+.banner-inner {
+  display: flex;
+  width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.banner-content {
+  flex: 1 1 50%;
+  max-width: 500px;
+  min-width: 260px;
+  text-align: left;
+  padding: 2.5em 2em 2.5em 2.5em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 2;
+}
+
+.banner-svg {
+  flex: 1 1 50%;
+  min-width: 220px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.banner-svg svg {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  min-width: 180px;
+}
+
+.banner-content .header-title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 4em;
+  color: #fff;
+  letter-spacing: 0.03em;
+  margin: 0 0 0.2em 0;
+  text-shadow: 2px 2px 8px #8d3bbf, 0 2px 8px #000;
+}
+
+.banner-content .header-subtitle {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 0.7em 0;
+  text-shadow: 1px 1px 6px #8d3bbf, 0 2px 8px #000;
+}
+
+.banner-message {
+  font-size: 2em;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1.5em;
+  text-shadow: 1px 1px 8px #8d3bbf, 0 2px 8px #000;
+}
+
+.banner-btn {
+  font-size: 1.2em;
+  padding: 0.9em 2.5em;
+  border-radius: 12px;
+  margin-top: 0.5em;
+  box-shadow: 0 4px 16px rgba(141,59,191,0.13);
+}
+
+@media (max-width: 900px) {
+  .main-banner {
+    min-height: 260px;
+  }
+  .banner-inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .banner-content {
+    max-width: 95vw;
+    padding: 2em 0.5em 1.2em 0.5em;
+    text-align: center;
+    align-items: center;
+  }
+  .banner-svg {
+    max-width: 95vw;
+    margin-bottom: 1em;
+    margin-top: 0;
+    justify-content: center;
+  }
+  .banner-svg svg {
+    max-width: 320px;
+    min-width: 120px;
+  }
+  .banner-content .header-title {
+    font-size: 2.7em;
+  }
+  .banner-content .header-subtitle {
+    font-size: 1.5em;
+  }
+  .banner-message {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-banner {
+    min-height: 180px;
+  }
+  .banner-content {
+    max-width: 100vw;
+    padding: 1.2em 0.2em 0.7em 0.2em;
+    text-align: center;
+    align-items: center;
+  }
+  .banner-svg {
+    max-width: 100vw;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    justify-content: center;
+  }
+  .banner-svg svg {
+    max-width: 200px;
+    min-width: 80px;
+  }
+  .banner-content .header-title {
+    font-size: 2em;
+  }
+  .banner-content .header-subtitle {
+    font-size: 1.3em;
+  }
+  .banner-message {
+    font-size: 1.15em;
+  }
+  .banner-btn {
+    font-size: 0.95em;
+    padding: 0.6em 1.1em;
+  }
+  nav.w3-bar {
+    font-size: 1.08em !important;
+    padding: 0.4em 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+  }
+  nav .w3-bar-item {
+    font-size: 1.08em !important;
+    padding: 0.6em 0.5em !important;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+.course-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  z-index: 3;
+  border-radius: inherit;
+}
+
+.course-card {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 320px;
+  padding-bottom: 2.5em;
+}
+
+.course-card:hover, .course-card:focus-within {
+  box-shadow: 0 8px 32px 0 rgba(141,59,191,0.18), 0 2px 16px rgba(141,59,191,0.10);
+  border-color: #8d3bbf;
+  z-index: 2;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.product-card.featured {
+  flex: 1 1 100%;
+  max-width: 900px;
+  min-width: 260px;
+  background: #f3eaff;
+  border: 3px solid #8d3bbf;
+  box-shadow: 0 8px 32px 0 rgba(141,59,191,0.13), 0 2px 16px rgba(141,59,191,0.10);
+  padding: 2.5em 2em 2em 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  border-radius: 18px;
+  position: relative;
+  align-items: center;
+}
+
+.product-card.featured .product-title {
+  font-size: 1.4em;
+  color: #8d3bbf;
+}
+
+.product-card.featured .product-desc {
+  font-size: 1.1em;
+  color: #4a148c;
+}
+
+.product-card:not(.featured) {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(141,59,191,0.10);
+  padding: 2em 1.2em 1.5em 1.2em;
+  max-width: 270px;
+  min-width: 220px;
+  flex: 1 1 220px;
+  text-align: center;
+  transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.25s;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #b57ee6;
+}
+
+.product-card:not(.featured):hover {
+  transform: scale(1.06) translateY(-8px) rotate(-1deg);
+  box-shadow: 0 8px 32px 0 rgba(141,59,191,0.18), 0 2px 16px rgba(141,59,191,0.10);
+  border-color: #8d3bbf;
+  z-index: 2;
+}
+
+.product-card.featured svg {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1.2em;
+}
+
+.product-title {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+  color: #8d3bbf;
+  font-size: 1.15em;
+  margin-bottom: 0.5em;
+}
+
+.product-desc {
+  color: #444;
+  font-size: 1em;
+  margin-bottom: 1.5em;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.product-btn {
+  background: linear-gradient(90deg, #b57ee6 0%, #8d3bbf 100%);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.5em;
+  font-size: 1em;
+  box-shadow: 0 2px 8px rgba(141,59,191,0.10);
+  transition: background 0.3s, transform 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: 0.5em;
+}
+
+.product-btn:hover {
+  background: linear-gradient(90deg, #8d3bbf 0%, #b57ee6 100%);
+  transform: scale(1.07);
+}
+
+.product-btn i.fa-whatsapp {
+  margin-right: 0.5em;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+  .products-grid {
+    gap: 1.2em;
+  }
+  .product-card {
+    max-width: 45vw;
+    min-width: 160px;
+    padding: 1.2em 0.5em 1em 0.5em;
+  }
+  .product-img {
+    width: 70px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .products-grid {
+    flex-direction: column;
+    gap: 1.2em;
+    align-items: center;
+  }
+  .product-card:not(.featured), .course-card:not(.featured) {
+    max-width: 99vw;
+    min-width: 0;
+    padding: 1.5em 0.5em 2.5em 0.5em;
+    font-size: 1.08em;
+    min-height: 340px;
+  }
+  .product-btn {
+    margin-top: auto;
+    margin-bottom: 0.5em;
+    display: inline-block;
+  }
+  .product-img, .course-card svg {
+    width: 80px !important;
+    height: 120px !important;
+  }
+  nav.w3-bar {
+    font-size: 1.25em !important;
+    padding: 0.7em 0 !important;
+  }
+  nav .w3-bar-item {
+    font-size: 1.1em !important;
+    padding: 0.7em 1.2em !important;
+  }
+}
+
+/* Menú hamburguesa */
+.mobile-nav {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 54px;
+  height: 54px;
+  position: relative;
+  z-index: 1002;
+}
+.hamburger span {
+  display: block;
+  width: 36px;
+  height: 5px;
+  margin: 7px auto;
+  background: #8d3bbf;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(141,59,191,0.97);
+  z-index: 1001;
+  transform: translateY(-100%);
+  transition: transform 0.35s cubic-bezier(.4,2,.6,1);
+  padding-top: 4em;
+  gap: 2em;
+}
+.mobile-menu.open {
+  transform: translateY(0);
+}
+.mobile-link {
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  padding: 0.5em 2em;
+  border-radius: 12px;
+  transition: background 0.2s;
+  text-align: center;
+}
+.mobile-link:hover {
+  background: #b57ee6;
+}
+
+.close-menu {
+  display: none;
+  position: fixed;
+  top: 1.2em;
+  right: 1.2em;
+  z-index: 1100;
+  background: none;
+  border: none;
+  font-size: 2.5em;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.close-menu:hover {
+  color: #ffe082;
+}
+.mobile-menu.open ~ .close-menu {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .desktop-nav {
+    display: none !important;
+  }
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    padding: 0.2em 1em 0.2em 0;
+    position: relative;
+    z-index: 1002;
+  }
+  .hamburger {
+    display: block;
+  }
+  .close-menu {
+    display: none;
+  }
+  .mobile-menu.open ~ .close-menu {
+    display: block;
+  }
+} 

@@ -1,0 +1,22 @@
+<svg width="120" height="180" viewBox="0 0 120 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="velaGrad" x1="60" y1="60" x2="60" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#b57ee6"/>
+    </linearGradient>
+    <radialGradient id="llamaGrad" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#fffbe6"/>
+      <stop offset="100%" stop-color="#ffe082"/>
+    </radialGradient>
+  </defs>
+  <!-- Cuerpo de la vela -->
+  <rect x="35" y="60" width="50" height="110" rx="18" fill="url(#velaGrad)" stroke="#b57ee6" stroke-width="3"/>
+  <!-- Cera derretida -->
+  <ellipse cx="60" cy="60" rx="25" ry="10" fill="#fff" fill-opacity="0.8"/>
+  <ellipse cx="60" cy="170" rx="25" ry="8" fill="#b57ee6" fill-opacity="0.18"/>
+  <!-- Llama -->
+  <ellipse cx="60" cy="48" rx="8" ry="16" fill="url(#llamaGrad)"/>
+  <ellipse cx="60" cy="48" rx="3" ry="6" fill="#fffde7" fill-opacity="0.7"/>
+  <!-- Mecha -->
+  <rect x="58" y="40" width="4" height="12" rx="2" fill="#8d3bbf"/>
+</svg> 

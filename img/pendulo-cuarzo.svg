@@ -1,0 +1,24 @@
+<svg width="120" height="180" viewBox="0 0 120 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="penduloGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#f8e1f4"/>
+      <stop offset="100%" stop-color="#b57ee6"/>
+    </radialGradient>
+    <linearGradient id="chainGrad" x1="60" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8d3bbf"/>
+      <stop offset="1" stop-color="#b57ee6"/>
+    </linearGradient>
+  </defs>
+  <!-- Cadena -->
+  <rect x="57" y="0" width="6" height="60" rx="3" fill="url(#chainGrad)"/>
+  <!-- Cuarzo -->
+  <ellipse cx="60" cy="110" rx="32" ry="44" fill="url(#penduloGrad)" stroke="#b57ee6" stroke-width="3"/>
+  <!-- Facetas -->
+  <polygon points="60,66 80,154 60,174 40,154" fill="#fff" fill-opacity="0.18"/>
+  <polygon points="60,66 70,154 60,174 50,154" fill="#fff" fill-opacity="0.25"/>
+  <ellipse cx="60" cy="110" rx="12" ry="18" fill="#fff" fill-opacity="0.13"/>
+  <!-- Brillo -->
+  <ellipse cx="70" cy="100" rx="7" ry="14" fill="#fff" fill-opacity="0.35"/>
+  <!-- Tope -->
+  <ellipse cx="60" cy="66" rx="10" ry="6" fill="#8d3bbf"/>
+</svg> 
